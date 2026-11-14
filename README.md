@@ -1,4 +1,26 @@
-# Benni Spatial X-Ray & Neural Mirror
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D0D,50:1a1a2e,100:7000FF&height=200&section=header&text=benni-spatial-xray&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Real-Time%20WebGL%20%26%20MediaPipe%20Spatial%20X-Ray%20Mirror%20with%20GLSL&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
+
+<br/>
+
+[![Status](https://img.shields.io/badge/Status-Production-00C853?style=for-the-badge&logo=checkmarx&logoColor=white)](#)
+[![Stack](https://img.shields.io/badge/Stack-WebGL%2BMediaPipe-7000FF?style=for-the-badge)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-00C853?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
+[![Benni OS](https://img.shields.io/badge/Benni%20OS-benni--os.net-0D0D0D?style=for-the-badge)](https://benni-os.net)
+
+<br/>
+
+> **Real-Time WebGL & MediaPipe Spatial X-Ray Mirror with GLSL.**  
+> Part of the **Benni Master OS** sovereign engineering ecosystem.
+
+<br/>
+
+<img src="assets/demo.gif" alt="benni-spatial-xray Animated Architecture Demo" width="100%"/>
+
+</div>
+
+---
 
 Real-time client-side **WebGL 3D + MediaPipe Vision + Custom GLSL Shaders + Procedural Web Audio Foley** anatomical mirror running at 60 FPS with zero external mesh dependencies.
 
