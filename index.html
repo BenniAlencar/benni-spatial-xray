@@ -77,7 +77,9 @@
   #intro {
     position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
     gap: 16px; text-align: center; padding: 32px; background: rgba(5, 7, 10, 0.88); backdrop-filter: blur(8px);
+    z-index: 20;
   }
+  [hidden] { display: none !important; }
   #intro h2 {
     margin: 0; font-size: 34px; letter-spacing: .08em; font-weight: 800;
     background: linear-gradient(135deg, #ffffff, var(--cyan));
@@ -925,6 +927,7 @@ let demoRunning = false;
 function runDemoMode() {
   demoRunning = true;
   $("intro").hidden = true;
+  $("intro").style.display = "none";
   setStatus("SIMULATED NEURAL DEMO", "active");
   const baseProjM = new THREE.Matrix4().perspective(63, W / H, 1, 10000);
 
@@ -1058,6 +1061,8 @@ async function init() {
       }
       await startCamera();
       $("intro").hidden = true;
+      $("intro").style.display = "none";
+      resize();
       setStatus("LOADING AI MODELS...");
       await loadVisionTrackers();
       setStatus("TRACKING ACTIVE", "active");
